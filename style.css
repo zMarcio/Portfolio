@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'FreckleFace';
+    src: url('FreckleFace-Regular.ttf');
+}
+    
+:root{
+    --bg-fundo:#0A3A40;
+    --color-padrao: white;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'FreckleFace';
+    font-size: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-fundo) url("pngwing.png");
+    color: var(--color-padrao);
+}
+
+.imgCurriculo{
+    text-align: center;
+}
+
+.titulo{
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.titulo:hover{
+    color: #8d905c;
+}
+
+.col-3{
+    margin: auto;
+}
+
+nav{
+    text-align: center;
+}
+
+
+.nav-link{
+    color: var(--color-padrao);
+    padding: 15px 0;
+    margin: auto;
+    font-size: 35px;
+}
+
+.nav-link a{
+    position: fixed;
+}
+
+.nav-link:hover{
+    color: #8d905c;
+}
+
+
+
+.conteudo{
+    margin: 20px 0px;
+}
+
+.conteudo:hover{
+    color: #8d905c;
+}
+
+.textConteudo{
+    text-align: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-3,
+.col {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.apresentacao {
+    margin: 20px 0;
+}
+
+#descricao{
+    font-size: 22px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+#descricao a {
+    font-family: 'Roboto', sans-serif;
+    
+}
