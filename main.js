@@ -32,8 +32,7 @@ document.addEventListener('click', (event) => {
     if(elementClick.id == 'landing'){
         titulo.textContent = `O projeto Landing Page`
         conteudo.innerHTML = 
-        `A Landing Page é um projeto que desenvolvi para aplicar meus conhecimentos em HTML5, CSS3 e Bootstrap na criação de uma página de destino para um produto fictício. Essa página foi desenvolvida com foco na usabilidade e em direcionar os visitantes a realizar uma ação específica, como se inscrever em uma lista de e-mails ou adquirir um produto.
-        Durante o desenvolvimento, utilizei o framework Bootstrap para agilizar o processo de criação, aproveitando seus componentes e recursos responsivos. Também apliquei técnicas de design e usabilidade para criar uma experiência atraente e intuitiva para o usuário.
+        `A Landing Page é um projeto que desenvolvi para aplicar meus conhecimentos em HTML5, CSS3 e Bootstrap na criação de uma página de destino para um produto fictício. Essa página foi desenvolvida com foco na usabilidade. Durante o desenvolvimento, utilizei o framework Bootstrap para agilizar o processo de criação, aproveitando seus componentes e recursos responsivos. Também apliquei técnicas de design e usabilidade para criar uma experiência atraente e intuitiva para o usuário.
         Foi uma oportunidade valiosa para praticar a criação de layouts responsivos, trabalhar com formulários e aprimorar minhas habilidades em HTML5, CSS3 e Bootstrap.
         <br></br>
         Aqui está o link da aplicação hospedada: <a href="https://landing-page-zmarcio.vercel.app/" target="_blank">Landing Page</a>`
@@ -42,21 +41,12 @@ document.addEventListener('click', (event) => {
     if(elementClick.id == 'task'){
         titulo.textContent = `O projeto Task-List`
         conteudo.innerHTML = `
-        A Task-List é um projeto de lista de tarefas desenvolvido com HTML5, CSS3 e JavaScript. Essa aplicação permite aos usuários criar, visualizar e gerenciar tarefas de forma simples e intuitiva. Os dados das tarefas são armazenados no localStorage do navegador, permitindo que as tarefas persistam mesmo após o usuário atualizar a página.
-        Durante o desenvolvimento desse projeto, pratiquei conceitos de manipulação do DOM com JavaScript, como criar elementos dinamicamente, adicionar eventos aos elementos e atualizar o conteúdo da página de acordo com as ações do usuário. Também aprimorei minhas habilidades em estilização com CSS3, criando uma interface amigável e responsiva.
+        A Task-List é um projeto de lista de tarefas desenvolvido com HTML5, CSS3 e JavaScript. Essa aplicação permite aos usuários criar, visualizar e gerenciar tarefas de forma simples e intuitiva. Durante o desenvolvimento desse projeto, pratiquei conceitos de manipulação do DOM com JavaScript, como criar elementos dinamicamente, adicionar eventos aos elementos e atualizar o conteúdo da página de acordo com as ações do usuário. Também aprimorei minhas habilidades em estilização com CSS3, criando uma interface amigável e responsiva.
         Essa aplicação foi um exercício valioso para consolidar meus conhecimentos em HTML5, CSS3 e JavaScript, além de entender como criar interações mais complexas com o usuário.
         <br></br>
         Aqui está o link da aplicação hospedada: <a href="https://task-list-project.vercel.app/" target="_blank">Task-List</a>`
     }
 
-    if(elementClick.id == 'agenda'){
-        titulo.textContent = `O projeto Agenda de contatos`
-        conteudo.innerHTML = `A Agenda de contatos é uma aplicação web que desenvolvi utilizando HTML5, CSS3, JavaScript e Firebase. Ela permite aos usuários cadastrar e gerenciar seus contatos de forma eficiente e segura. Os dados dos contatos são armazenados no banco de dados em tempo real do Firebase, possibilitando o acesso e a atualização dos contatos de qualquer dispositivo.
-        Durante o desenvolvimento desse projeto, aprimorei meus conhecimentos em HTML5, CSS3 e JavaScript, além de aprender a utilizar o Firebase como backend para armazenar e sincronizar dados. Também trabalhei com conceitos de autenticação de usuários, validação de formulários e manipulação de dados em tempo real.
-        Essa aplicação foi uma experiência enriquecedora que me permitiu entender como criar um sistema mais completo e interativo, além de aprender sobre a integração com serviços externos.
-        <br></br>
-        Aqui está o link da aplicação hospedada: <a href="" target="_blank">Agenda de contatos</a>`
-    }
 
     if(elementClick.id == 'contatos'){
         titulo.textContent = `Contatos`
@@ -68,7 +58,7 @@ document.addEventListener('click', (event) => {
         <br></br>
         E-mail: marciopaulolima21@edu.unifor.br
         <br></br>
-        GitHub: <a href='https://github.com/zMarcio''>zMarcio</a>
+        GitHub: <a href='https://github.com/zMarcio'>zMarcio</a>
         <br></br>
         `
     }
