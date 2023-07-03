@@ -44,7 +44,7 @@ document.addEventListener('click', (event) => {
         A Task-List é um projeto de lista de tarefas desenvolvido com HTML5, CSS3 e JavaScript. Essa aplicação permite aos usuários criar, visualizar e gerenciar tarefas de forma simples e intuitiva. Durante o desenvolvimento desse projeto, pratiquei conceitos de manipulação do DOM com JavaScript, como criar elementos dinamicamente, adicionar eventos aos elementos e atualizar o conteúdo da página de acordo com as ações do usuário. Também aprimorei minhas habilidades em estilização com CSS3, criando uma interface amigável e responsiva.
         Essa aplicação foi um exercício valioso para consolidar meus conhecimentos em HTML5, CSS3 e JavaScript, além de entender como criar interações mais complexas com o usuário.
         <br></br>
-        Aqui está o link da aplicação hospedada: <a href="https://task-list-project.vercel.app/" target="_blank">Task-List</a>`
+        Aqui está o link da aplicação hospedada: <a href="https://add-task-ibm.vercel.app/" target="_blank">Task-List</a>`
     }
 
 
